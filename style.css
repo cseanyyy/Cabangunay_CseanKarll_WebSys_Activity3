@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Header & Nav */
+header {
+    border-bottom: 3px solid #000;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+/* Home Page Specifics */
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile-img {
+    width: 200px;
+    filter: grayscale(100%); /* Gives it that cinematic look */
+    border: 8px solid #000;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.dark-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* List Styling */
+.styled-list {
+    list-style-position: inside;
+    margin-top: 30px;
+}
+
+.styled-list li {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
